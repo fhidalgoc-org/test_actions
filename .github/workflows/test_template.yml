@@ -16,8 +16,8 @@ jobs:
   reusable_workflow_call:
     name: Build and Push
     uses: fhidalgoc-org/.github/.github/workflows/blank.yml@main
-    # with:
-    #   name: hello_from_template
+    with:
+      branch: ${{ github.ref_name }}
     # secrets:
     #   personal_access_token: ${{ github.token }}
 
