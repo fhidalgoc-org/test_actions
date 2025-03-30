@@ -1,0 +1,13 @@
+name: Octo Organization CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  reusable_workflow_call:
+    uses: fhidalgoc-org/.github/.github/workflows/blank.yml@main
+
+
