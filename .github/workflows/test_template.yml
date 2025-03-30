@@ -10,6 +10,7 @@ on:
 permissions:
   contents: read  # Permite leer el contenido del repositorio
   actions: write  # Permite ejecutar flujos de trabajo de Actions
+  pull-requests: write
 
 jobs:
   reusable_workflow_call:
