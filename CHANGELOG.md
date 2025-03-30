@@ -1,5 +1,32 @@
 # Changelog
 
+## [2.0.0](https://github.com/fhidalgoc-org/test_actions/compare/v1.0.0...v2.0.0) (2025-03-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* updateee
+* update on dev
+* diossssss
+* important fix!
+* important change
+
+### Features
+
+* diossssss ([d92e521](https://github.com/fhidalgoc-org/test_actions/commit/d92e521fda41a09ec2bdb28410592b26e52e72c4))
+* important change ([b6fca94](https://github.com/fhidalgoc-org/test_actions/commit/b6fca94be3db11144ab39015ccc8a375a7eb31a6))
+* importantisimo ([3d869a7](https://github.com/fhidalgoc-org/test_actions/commit/3d869a7d01ce206d2c0f7e426324815f71c6eb04))
+* solving all ([99065cf](https://github.com/fhidalgoc-org/test_actions/commit/99065cf90ce901d192e070adf44772a5f5c9b1a7))
+* update on dev ([3a7b903](https://github.com/fhidalgoc-org/test_actions/commit/3a7b9034aef54128ccbc77d8b3ab9757275df155))
+
+
+### Bug Fixes
+
+* important fix! ([fb91abb](https://github.com/fhidalgoc-org/test_actions/commit/fb91abb56740f03d5cf234200de2581f6ed04ac0))
+* test semantic ([5e00436](https://github.com/fhidalgoc-org/test_actions/commit/5e0043677cbebafe4a6e04dbe7173cb7f35f6770))
+* update also on dev ([f0ff2af](https://github.com/fhidalgoc-org/test_actions/commit/f0ff2af9ffe9893c8fac501dc1144e7a8558b932))
+* updateee ([2e5769d](https://github.com/fhidalgoc-org/test_actions/commit/2e5769d31168a65eca12620da51959766fd07ac3))
+
 ## [1.0.0](https://github.com/fhidalgoc-org/test_actions/compare/v0.0.0...v1.0.0) (2025-03-30)
 
 
