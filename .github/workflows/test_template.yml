@@ -1,4 +1,4 @@
-name: Octo Organization CI
+name: Build and Push
 
 on:
   push:
@@ -6,12 +6,14 @@ on:
   pull_request:
     branches: [ "main" ]
   workflow_dispatch:
+
 permissions:
   contents: read  # Permite leer el contenido del repositorio
   actions: write  # Permite ejecutar flujos de trabajo de Actions
 
 jobs:
   reusable_workflow_call:
+    name: Build and Push
     uses: fhidalgoc-org/.github/.github/workflows/blank.yml@main
     with:
       name: hello_from_template
