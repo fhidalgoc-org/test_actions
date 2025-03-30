@@ -15,6 +15,7 @@ jobs:
     uses: fhidalgoc-org/.github/.github/workflows/blank.yml@main
     with:
       name: hello_from_template
+    secrets:
       personal_access_token: ${{ github.token }}
 
 
