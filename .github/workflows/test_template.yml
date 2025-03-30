@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read  # Permite leer el contenido del repositorio
+  contents: write  # Permite leer el contenido del repositorio
   actions: write  # Permite ejecutar flujos de trabajo de Actions
   pull-requests: write
 
