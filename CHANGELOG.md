@@ -1,5 +1,21 @@
 # Changelog
 
+## [3.0.1](https://github.com/fhidalgoc-org/test_actions/compare/v3.0.0...v3.0.1) (2025-03-31)
+
+
+### Bug Fixes
+
+* as secret, not input ([cdb99d8](https://github.com/fhidalgoc-org/test_actions/commit/cdb99d8273663e92f61b1ea34339cecaac89628d))
+* asdw ([0d499b0](https://github.com/fhidalgoc-org/test_actions/commit/0d499b02ecc943e7f7905fdfde9cf9362356f7c4))
+* asfw ([fd677e4](https://github.com/fhidalgoc-org/test_actions/commit/fd677e4aa127d8bd03ef0562b7f45b5485d30d86))
+* no secret ([08cf062](https://github.com/fhidalgoc-org/test_actions/commit/08cf0624aa0431114f5866ceac71070462b7ea6d))
+* permission ([39a0515](https://github.com/fhidalgoc-org/test_actions/commit/39a05156ea7d7edfea31e919e43f717dd9627640))
+* permissions ([cadab33](https://github.com/fhidalgoc-org/test_actions/commit/cadab334048383d416931f773b88f2b2ae0e0fc2))
+* qwe ([de1650c](https://github.com/fhidalgoc-org/test_actions/commit/de1650c0f6a0f56697ea133393dfecb6865f953a))
+* simplified ([986238f](https://github.com/fhidalgoc-org/test_actions/commit/986238f4299d278ee4e8cc61fb7ad3958cc78327))
+* template.yaml ([010e330](https://github.com/fhidalgoc-org/test_actions/commit/010e330b3143d3b15f23b42cea35a153c1c9df29))
+* template.yml ([dee31d6](https://github.com/fhidalgoc-org/test_actions/commit/dee31d6dda6cd84702213c6b19ed29f55ecd8f21))
+
 ## [3.0.0](https://github.com/fhidalgoc-org/test_actions/compare/v2.0.0...v3.0.0) (2025-03-30)
 
 
