@@ -16,7 +16,7 @@ jobs:
   reusable_workflow_call:
     name: Build and Push
     with:
-      repository: ${{ github.repository }}
+      repository: ${{ github.event.repository.name }}
       username: fhidalgoc
     secrets:
       personal_access_token: ${{ secrets.GITHUB_TOKEN }}
