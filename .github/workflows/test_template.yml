@@ -4,11 +4,10 @@ on:
   push:
     branches: [ "main" ]
   workflow_dispatch:
-
-permissions:
-  contents: write  # Permite leer el contenido del repositorio
-  actions: write  # Permite ejecutar flujos de trabajo de Actions
-  pull-requests: write
+permissions: write-all
+  # contents: write  # Permite leer el contenido del repositorio
+  # actions: write  # Permite ejecutar flujos de trabajo de Actions
+  # pull-requests: write
 
 jobs:
   reusable_workflow_call:
