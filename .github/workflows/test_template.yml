@@ -16,6 +16,9 @@ jobs:
     uses: fhidalgoc-org/.github/.github/workflows/blank.yml@main
     with:
       branch: ${{ github.ref_name }}
+    secrets:
+      personal_access_token: ${{ github.token }}
+      
 
 
 
