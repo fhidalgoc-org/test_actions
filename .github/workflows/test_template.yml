@@ -3,8 +3,6 @@ name: Build and Push
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
   workflow_dispatch:
 
 permissions:
@@ -18,7 +16,6 @@ jobs:
     uses: fhidalgoc-org/.github/.github/workflows/blank.yml@main
     with:
       branch: ${{ github.ref_name }}
-    # secrets:
-    #   personal_access_token: ${{ github.token }}
+
 
 
