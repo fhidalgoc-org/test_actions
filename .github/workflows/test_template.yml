@@ -4,20 +4,18 @@ on:
   push:
     branches: [ "main" ]
   workflow_dispatch:
-# permissions: write-all
-  # contents: write  # Permite leer el contenido del repositorio
-  # actions: write  # Permite ejecutar flujos de trabajo de Actions
-  # pull-requests: write
+
+permissions:
+  contents: write  # Permite leer el contenido del repositorio
+  actions: write  # Permite ejecutar flujos de trabajo de Actions
+  pull-requests: write
 
 jobs:
   reusable_workflow_call:
     name: Build and Push
     uses: fhidalgoc-org/.github/.github/workflows/blank.yml@main
     with:
-      branch: refs/heads/${{ github.ref_name }}
-    secrets:
-      personal_access_token: ${{ secrets.GITHUB_TOKEN }}
-      
+      branch: ${{ github.ref_name }}
 
 
 
