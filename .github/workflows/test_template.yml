@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main" ]
   workflow_dispatch:
-permissions: write-all
+# permissions: write-all
   # contents: write  # Permite leer el contenido del repositorio
   # actions: write  # Permite ejecutar flujos de trabajo de Actions
   # pull-requests: write
@@ -16,7 +16,7 @@ jobs:
     with:
       branch: ${{ github.ref_name }}
     secrets:
-      personal_access_token: ${{ github.token }}
+      personal_access_token: ${{ secrets.GITHUB_TOKEN }}
       
 
 
