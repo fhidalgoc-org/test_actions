@@ -9,17 +9,17 @@ permissions:
   contents: write  # Permite leer el contenido del repositorio
   actions: write  # Permite ejecutar flujos de trabajo de Actions
   pull-requests: write
-
+  packages: write
 jobs:
-  checkout:
-    uses: actions/checkout@v4
-    
+
   reusable_workflow_call:
     name: Build and Push
     uses: fhidalgoc-org/.github/.github/workflows/blank.yml@main
-    # with:
-      # branch: ${{ github.ref_name }}
+    with:
+      repository: ${{ github.repository }}
     secrets:
       personal_access_token: ${{ secrets.GITHUB_TOKEN }}
+      DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+      DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_PASSWORD }}
 
 
