@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.2](https://github.com/fhidalgoc-org/test_actions/compare/v3.0.1...v3.0.2) (2025-03-31)
+
+
+### Bug Fixes
+
+* ad ([579bd4b](https://github.com/fhidalgoc-org/test_actions/commit/579bd4b8b64d214c808d932557e5cb14b4e08810))
+
 ## [3.0.1](https://github.com/fhidalgoc-org/test_actions/compare/v3.0.0...v3.0.1) (2025-03-31)
 
 
