@@ -21,6 +21,7 @@ jobs:
     secrets:
       personal_access_token: ${{ secrets.GITHUB_TOKEN }}
       DOCKERHUB_TOKEN: ${{ secrets.DOCKER_PASSWORD }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     uses: fhidalgoc-org/.github/.github/workflows/blank.yml@main
 
 
